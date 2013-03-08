@@ -1,5 +1,6 @@
 package Yogibear617.mods.FuturisticCraft.Items;
 
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.item.Item;
 
 public class FCModItems {
@@ -20,6 +21,8 @@ public class FCModItems {
 		//[Item Recipes]]\\
 		
 		//[[Item Names]]\\
-		
+		LanguageRegistry.addName(powerCrystalCore, "Power Crystal <Core>");
+		LanguageRegistry.addName(powerCrystalRed, "Power Crystal <Red>");
+		LanguageRegistry.addName(powerCrystalGreen, "Power Crystal <Green>");
 	}
 }
