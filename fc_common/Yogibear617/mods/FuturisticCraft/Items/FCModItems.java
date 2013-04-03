@@ -15,9 +15,9 @@ public class FCModItems {
 	
 	public static void init() {
 		//[[Items Declaration]]\\
-		powerCrystalCore = new ItemsFC(10000).setIconIndex(0).setItemName("powerCrystalCore");
-		powerCrystalRed = new ItemsFC(10001).setIconIndex(1).setItemName("powerCrystalRed");
-		powerCrystalGreen = new ItemsFC(10002).setIconIndex(2).setItemName("powerCrystal");
+		powerCrystalCore = new ItemsFC(10000).setUnlocalizedName("powerCrystalCore");
+		powerCrystalRed = new ItemsFC(10001).setUnlocalizedName("powerCrystalRed");
+		powerCrystalGreen = new ItemsFC(10002).setUnlocalizedName("powerCrystal");
 		//[Item Recipes]]\\
 		
 		//[[Item Names]]\\

@@ -12,5 +12,8 @@ public class ItemsFC extends Item {
 	public String getTextureFile() {
 		return "/FuturisticCraft/FCModItems.png";
 	}
+	public Object getIconIndex(int i) {
+		return null;
+	}
 
 }
